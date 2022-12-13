@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "npx cypress run",
+    "report": "node ./cypress/generate-reports/report.mjs"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "latest",
+    "multiple-cucumber-html-reporter": "latest"
+  }
+}
